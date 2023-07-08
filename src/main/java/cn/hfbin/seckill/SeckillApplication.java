@@ -11,6 +11,7 @@ public class SeckillApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SeckillApplication.class, args);
 	}
-
+	int test=0;
+	int t = 0;
 
 }
