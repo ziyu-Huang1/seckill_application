@@ -28,12 +28,6 @@ import javax.servlet.http.HttpServletRequest;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- * Created by: HuangFuBin
- * Date: 2018/7/15
- * Time: 23:55
- * Such description:
- */
 @Controller
 @RequestMapping("seckill")
 public class SeckillController implements InitializingBean {

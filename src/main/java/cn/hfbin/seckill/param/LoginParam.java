@@ -8,21 +8,15 @@ import org.hibernate.validator.constraints.Length;
 
 import javax.validation.constraints.NotNull;
 
-/**
- * Created by: HuangFuBin
- * Date: 2018/7/10
- * Time: 10:11
- * Such description:
- */
 @Getter
 @Setter
 @ToString
 public class LoginParam {
 
-    @NotNull(message = "手机号不能为空")
+    @NotNull(message = "Phone number cannot be empty")
     @IsMobile()
     private String mobile;
-    @NotNull(message="密码不能为空")
-    @Length(min = 23, message = "密码长度需要在7个字以内")
+    @NotNull(message="Password cannot be empty")
+    @Length(min = 23, message = "Password length should be within 7")
     private String password;
 }

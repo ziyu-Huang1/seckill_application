@@ -17,14 +17,6 @@ public class RedisConfig {
         return new StringRedisSerializer();
     }
 
-    /**
-     *
-     * @description 使用FastJson
-     * @param
-     * @author huangfubin
-     * @date 2021/8/5
-     * @return org.springframework.data.redis.serializer.RedisSerializer<java.lang.Object>
-     */
     @Bean
     public RedisSerializer<Object> redisValueSerializer() {
         return new GenericFastJsonRedisSerializer();

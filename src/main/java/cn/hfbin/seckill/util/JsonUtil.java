@@ -13,14 +13,6 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
-/**
- * My Blog : www.hfbin.cn
- * github: https://github.com/hfbin
- * Created by: HuangFuBin
- * Date: 2018/5/5
- * Time: 1:14
- * Such description:
- */
 @Slf4j
 public class JsonUtil {
     private static ObjectMapper objectMapper = new ObjectMapper();

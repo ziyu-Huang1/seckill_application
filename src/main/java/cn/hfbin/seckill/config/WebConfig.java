@@ -14,12 +14,6 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter
 
 import javax.servlet.Filter;
 
-/**
- * Created by: HuangFuBin
- * Date: 2018/7/11
- * Time: 20:58
- * Such description:
- */
 @Configuration
 public class WebConfig extends WebMvcConfigurerAdapter {
     @Autowired
