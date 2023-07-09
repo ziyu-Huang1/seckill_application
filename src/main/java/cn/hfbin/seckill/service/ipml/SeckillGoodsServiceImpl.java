@@ -8,12 +8,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-/**
- * Created by: HuangFuBin
- * Date: 2018/7/12
- * Time: 19:47
- * Such description:
- */
 
 @Service("seckillGoodsService")
 public class SeckillGoodsServiceImpl implements SeckillGoodsService {

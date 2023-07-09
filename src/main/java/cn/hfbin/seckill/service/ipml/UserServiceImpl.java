@@ -11,12 +11,6 @@ import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-/**
- * Created by: HuangFuBin
- * Date: 2018/7/10
- * Time: 12:01
- * Such description:
- */
 @Service("userService")
 public class UserServiceImpl implements UserService{
 

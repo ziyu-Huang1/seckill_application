@@ -22,12 +22,6 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.Date;
 import java.util.UUID;
 
-/**
- * Created by: HuangFuBin
- * Date: 2018/7/16
- * Time: 16:47
- * Such description:
- */
 @Slf4j
 @Service("seckillOrderService")
 public class SeckillOrderServiceImpl implements SeckillOrderService {
